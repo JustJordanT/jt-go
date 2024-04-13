@@ -2,7 +2,7 @@
 title: 'Building Structs With Go'
 date: 2023-09-08T13:43:53-06:00
 draft: false
-image: brand_image.jpg
+# image: brand_image.jpg
 tags: ["go"]
 # series: "How to use poison"
 ---

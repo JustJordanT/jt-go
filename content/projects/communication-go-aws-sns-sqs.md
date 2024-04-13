@@ -31,7 +31,7 @@ Amazon Simple Notification Service (Amazon SNS) sends notifications two ways, A2
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
 
     ```bash
     git clone https://github.com/yourusername/go-aws-sns-sqs-example.git
