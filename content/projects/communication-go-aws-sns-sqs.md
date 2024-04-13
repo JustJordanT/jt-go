@@ -15,32 +15,17 @@ tags: ["go", "project"]
 
 This project demonstrates a minimal setup to use AWS SNS and SQS with Go. It includes examples for publishing messages to an SNS topic, subscribing an SQS queue to that topic, and consuming messages from the queue.
 
-{{< mermaid >}}
-graph TD;
-    A[Go Service A] -->|Publish Message| B[AWS SNS Topic]
-    B -->|Subscribe| D[AWS SQS Queue 1]
-    B -->|Subscribe| E[AWS SQS Queue 2]
-    D -->|Consume| G[Go Service B]
-    E -->|Consume| H[Go Service C]
-{{< /mermaid >}}
+## SQS
 
-## Table of Contents
+Amazon Simple Queue Service (Amazon SQS) lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.
 
-- [Go AWS SNS/SQS Example](#go-aws-snssqs-example)
-	- [Overview](#overview)
-	- [Table of Contents](#table-of-contents)
-	- [Prerequisites](#prerequisites)
-	- [Installation](#installation)
-	- [Configuration](#configuration)
-	- [Usage](#usage)
-		- [Publish to SNS Topic](#publish-to-sns-topic)
-		- [Consume from SQS Queue](#consume-from-sqs-queue)
-	- [Contributing](#contributing)
-	- [License](#license)
+## SNS
+
+Amazon Simple Notification Service (Amazon SNS) sends notifications two ways, A2A and A2P. A2A provides high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. These applications include Amazon Simple Queue Service (SQS), Amazon Kinesis Data Firehose, AWS Lambda, and other HTTPS endpoints. A2P functionality lets you send messages to your customers with SMS texts, push notifications, and email. 
 
 ## Prerequisites
 
-- Go 1.16 or higher
+- Go `1.18` or higher
 - AWS CLI configured with appropriate permissions
 - AWS SDK for Go (`github.com/aws/aws-sdk-go`)
 

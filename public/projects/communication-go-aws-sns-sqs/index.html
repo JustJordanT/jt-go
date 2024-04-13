@@ -424,54 +424,13 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 <p><a href="https://github.com/JustJordanT/communication-go-aws-sns-sqs" target="_blank">Github Project Link</a></p>
 <h2 id="overview">Overview</h2>
 <p>This project demonstrates a minimal setup to use AWS SNS and SQS with Go. It includes examples for publishing messages to an SNS topic, subscribing an SQS queue to that topic, and consuming messages from the queue.</p>
-
-
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-
-    const lsTheme = localStorage.getItem("theme")
-    const hugoTheme = document.body.classList.contains("dark-theme") ? "dark" : null
-    const currTheme = lsTheme ? lsTheme : hugoTheme;
-    const mermaidTheme = currTheme == "light" ? "default" : "dark"
-
-    mermaid.initialize({theme: mermaidTheme});
-</script>
-
-
-
-<div class="mermaid">
-graph TD;
-    A[Go Service A] -->|Publish Message| B[AWS SNS Topic]
-    B -->|Subscribe| D[AWS SQS Queue 1]
-    B -->|Subscribe| E[AWS SQS Queue 2]
-    D -->|Consume| G[Go Service B]
-    E -->|Consume| H[Go Service C]
-
-</div>
-
-<h2 id="table-of-contents">Table of Contents</h2>
-<ul>
-<li><a href="#go-aws-snssqs-example">Go AWS SNS/SQS Example</a>
-<ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#table-of-contents">Table of Contents</a></li>
-<li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#installation">Installation</a></li>
-<li><a href="#configuration">Configuration</a></li>
-<li><a href="#usage">Usage</a>
-<ul>
-<li><a href="#publish-to-sns-topic">Publish to SNS Topic</a></li>
-<li><a href="#consume-from-sqs-queue">Consume from SQS Queue</a></li>
-</ul>
-</li>
-<li><a href="#contributing">Contributing</a></li>
-<li><a href="#license">License</a></li>
-</ul>
-</li>
-</ul>
+<h2 id="sqs">SQS</h2>
+<p>Amazon Simple Queue Service (Amazon SQS) lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.</p>
+<h2 id="sns">SNS</h2>
+<p>Amazon Simple Notification Service (Amazon SNS) sends notifications two ways, A2A and A2P. A2A provides high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. These applications include Amazon Simple Queue Service (SQS), Amazon Kinesis Data Firehose, AWS Lambda, and other HTTPS endpoints. A2P functionality lets you send messages to your customers with SMS texts, push notifications, and email.</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li>Go 1.16 or higher</li>
+<li>Go <code>1.18</code> or higher</li>
 <li>AWS CLI configured with appropriate permissions</li>
 <li>AWS SDK for Go (<code>github.com/aws/aws-sdk-go</code>)</li>
 </ul>
@@ -545,7 +504,8 @@ graph TD;
       <nav id="TableOfContents">
   <ul>
     <li><a href="#overview">Overview</a></li>
-    <li><a href="#table-of-contents">Table of Contents</a></li>
+    <li><a href="#sqs">SQS</a></li>
+    <li><a href="#sns">SNS</a></li>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#configuration">Configuration</a></li>
