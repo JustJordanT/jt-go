@@ -13,7 +13,7 @@
       <link>//localhost:1313/projects/communication-go-aws-sns-sqs/</link>
       <pubDate>Fri, 08 Sep 2023 13:43:53 -0600</pubDate>
       <guid>//localhost:1313/projects/communication-go-aws-sns-sqs/</guid>
-      <description>Go AWS SNS/SQS Example Github Project Link&#xA;Overview This project demonstrates a minimal setup to use AWS SNS and SQS with Go. It includes examples for publishing messages to an SNS topic, subscribing an SQS queue to that topic, and consuming messages from the queue.&#xA;Table of Contents Go AWS SNS/SQS Example Overview Table of Contents Prerequisites Installation Configuration Usage Publish to SNS Topic Consume from SQS Queue Contributing License Prerequisites Go 1.</description>
+      <description>Go AWS SNS/SQS Example Github Project Link&#xA;Overview This project demonstrates a minimal setup to use AWS SNS and SQS with Go. It includes examples for publishing messages to an SNS topic, subscribing an SQS queue to that topic, and consuming messages from the queue.&#xA;SQS Amazon Simple Queue Service (Amazon SQS) lets you send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available.</description>
     </item>
   </channel>
 </rss>
