@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on </title>
+    <link>//localhost:1313/projects/</link>
+    <description>Recent content in Projects on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Sep 2023 13:43:53 -0600</lastBuildDate>
+    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>communication-go-aws-sns-sqs</title>
+      <link>//localhost:1313/projects/communication-go-aws-sns-sqs/</link>
+      <pubDate>Fri, 08 Sep 2023 13:43:53 -0600</pubDate>
+      <guid>//localhost:1313/projects/communication-go-aws-sns-sqs/</guid>
+      <description>Go AWS SNS/SQS Example Github Project Link&#xA;Overview This project demonstrates a minimal setup to use AWS SNS and SQS with Go. It includes examples for publishing messages to an SNS topic, subscribing an SQS queue to that topic, and consuming messages from the queue.&#xA;graph TD; A[Go Service A] --&gt;|Publish Message| B[AWS SNS Topic] B --&gt;|Subscribe| D[AWS SQS Queue 1] B --&gt;|Subscribe| E[AWS SQS Queue 2] D --&gt;|Consume| G[Go Service B] E --&gt;|Consume| H[Go Service C] Table of Contents Go AWS SNS/SQS Example Overview Table of Contents Prerequisites Installation Configuration Usage Publish to SNS Topic Consume from SQS Queue Contributing License Prerequisites Go 1.</description>
+    </item>
+  </channel>
+</rss>
