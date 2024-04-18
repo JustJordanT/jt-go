@@ -12,7 +12,7 @@ A playground for SOLID Principles in Go
 
 ![image](https://github.com/JustJordanT/object-oriented-go/assets/38886930/b4213c01-3fd3-4630-88f2-5c4885ca49a0)
 
-"Object-Oriented Go: SOLID Principles" would explore applying the SOLID principles in the context of Go, a programming language traditionally seen as procedural rather than object-oriented. Here's a summary of how each SOLID principle could be applied in Go:
+"SOLID Principles In Go" would explore applying the SOLID principles in the context of Go, a programming language traditionally seen as procedural rather than object-oriented. Here's a summary of how each SOLID principle could be applied in Go:
 
 1. **Single Responsibility Principle (SRP)**: In Go, this principle can be implemented by designing packages and types with a single, clear purpose. Go's emphasis on small, reusable packages naturally supports SRP.
 
