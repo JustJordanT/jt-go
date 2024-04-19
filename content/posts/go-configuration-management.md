@@ -1,6 +1,6 @@
 ---
-title: 'wc-toolkit'
-date: 2024-04-01T13:43:53-06:00
+title: 'Working with configuration files in Go.'
+date: 2024-01-03T13:43:53-06:00
 draft: false
 # image: brand_image.jpg
 tags: ["go", "project"]
