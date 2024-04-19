@@ -6,6 +6,10 @@ draft: false
 tags: ["go", "project"]
 # series: "How to use poison"
 ---
+
+
+![pic](https://github.com/ashleymcnamara/gophers/blob/master/GOPHER_DAD.png?raw=true)
+
 # Working with configuration files in Go.
 Modern applications typically necessitate various configurations, tailored to each specific environment like development, testing, and production. These configurations often encompass service account credentials and links to supporting services, including databases. In modern web development can be very complex to say the least, when it comes to development and configuration, using the twelve-factor app methodology Let’s see how we can use Viper when it comes to environment configuration.
 
